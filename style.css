@@ -18,10 +18,13 @@
 
 /* Begin styling the tooltips and pins */
 .tooltip-up, .tooltip-down {
+    
+    border-radius: 50%;
+    background: red;
     position: absolute;
    
-    width: 25px;
-    height: 37px;
+    width: 15px;
+    height: 15px;
 }
 
 .tooltip-down {
