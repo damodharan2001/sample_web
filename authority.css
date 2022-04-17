@@ -1,0 +1,280 @@
+html, body{
+	height: 100%;
+}
+	
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+	font-family: 'Roboto';
+	font-size: 12pt;
+}
+.top-container {
+	height : 50px;
+	background-color: blue;
+	font-family: 'Cambria';
+	font-size : 20px;
+	color : white;
+	text-align: center;
+}	
+h1, h2, h3{
+	margin: 0;
+	padding: 0;
+	color: black;
+}
+	
+p, ol, ul{
+	margin-top: 0;
+}
+
+p {
+	line-height: 180%;
+}
+
+ol, ul{
+	padding: 0;
+	list-style: none;
+}
+	
+.container{
+	/* Set width of container to
+		1200px and align center */
+	margin: 0px auto;
+	width: 1200px;
+}
+
+header{
+	
+	overflow: hidden;
+}
+
+#top-header{
+	text-align: center;
+	height: 60px;
+}
+#logo{
+	float:left;
+	padding-top: 30px;
+	margin:none;
+	font-family: cambria;
+	font-weight: 500;
+	font-size: 20px;
+	height: 60px;
+	width:30%;
+}
+
+#menu{
+	float: right;
+	width: 70%;
+	height: 100%;
+	margin: none;
+}
+	
+#menu ul{
+	text-align: center;
+	float: right;
+	margin: none;
+	background: white;
+}
+	
+#menu li{
+	display: inline-block;
+	padding-top: 15px;
+	margin: none;
+}
+	
+#menu li a, #menu li span{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-weight: 600;
+	font-family: "Gill sans", sans-serif;
+	line-height: 60px;
+}
+	
+#menu li a{
+		
+	color: black;
+}
+
+#menu li:hover a, #menu li span{
+	color: blue;
+	border-left: 1px solid white;
+	text-decoration: none;
+}
+
+#menu-button{
+	display: inline-block;
+	padding: 0em 1.5em;
+	text-decoration: none;
+	font-size: 16px;
+	font-family: cursive;
+	background-color: white;
+	color: blue;
+	border: 3px solid blue;
+	padding: 16px 32px;
+	margin: 4px 2px;
+}
+#menu-button:hover {
+	color : white;
+	background-color: blue;
+}
+
+#header-image-menu{
+	top:10px;
+	position: relative;
+}
+
+#header-image-menu img{
+	width:100%;
+	margin:none;
+	padding:none;
+}
+
+#image-text{
+	position: absolute;
+	top: 30%;
+	left: 25%;
+	font-family: 'Cambria';
+	font-size: 40px;
+	color: #000;
+	transform: translate(-30%, -30%);
+	text-align: left;
+}
+
+#image-text-1{
+	position: absolute;
+	top:53%;
+	left: 27%;
+	font-family: cursive;
+	font-size: 15px;
+	color: black;
+	transform: translate(-30%, -30%);
+	text-align:left;
+}
+#image-input{
+	position: absolute;
+	top:69.5%;
+	left: 17%;
+	text-decoration: none;
+	text-align: left;
+	font-family: cursive;
+	font-size: 16px;
+	display: inline-block;
+	background-color: white;
+	color: black;
+	border: 7px solid white;
+	padding-top: 20px;
+	padding-right: 180px;
+	padding-bottom: 20px;
+	padding-left: 9px;
+	margin: 3px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+
+
+#image-button {
+	position: absolute;
+	top: 70.5%;
+	left: 38%;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	font-size: 16px;
+	font-family: cursive;
+	background-color: blue;
+	color: white;
+	border: 2px solid blue;
+	padding: 16px 32px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+	
+#image-button:hover {
+	background-color: white;
+	color: blue;
+}
+
+#name{
+	position: absolute;
+	top: 47%;
+	right: 2%;
+	writing-mode: vertical-lr;
+	text-orientation: sideways-right;
+	font-family: cursive;
+	color:black;
+}
+
+#profile{
+	position: absolute;
+	top : 40%;
+	right: 10%;
+	border: 7px solid white;
+}
+
+#fb{
+	position: absolute;
+	top:5%;
+	writing-mode: vertical-lr;
+	text-orientation: sideways-right;
+	font-family: cursive;
+	color:white;
+}
+
+#tw{
+	position: absolute;
+	top:15%;
+	writing-mode: vertical-lr;
+	text-orientation: sideways-right;
+	font-family: cursive;
+	color:white;
+}
+#ig{
+	position: absolute;
+	top:24%;
+	writing-mode: vertical-lr;
+	text-orientation: sideways-right;
+	font-family: cursive;
+	color:white;
+}
+#lk{
+	position: absolute;
+	top:35%;
+	writing-mode: vertical-lr;
+	text-orientation: sideways-right;
+	font-family: cursive;
+	color:white;
+}
+
+#tex{
+	position: absolute;
+	top:130%;
+	left : 45%;
+	font-family: cursive;
+	color:gray;
+}
+
+#ts{
+	position: absolute;
+	top:135%;
+	left : 15%;
+}
+#op{
+	position: absolute;
+	top:137%;
+	left : 35%;
+}
+#sx{
+	position: absolute;
+	top:137%;
+	left : 60%;
+}
+#nl{
+	position: absolute;
+	top:137%;
+	left : 79%;
+}
